@@ -21,3 +21,19 @@ Użytkownik musi mieć wyłączone ramki w ustawieniach
 
 Przykład:
 strims-download-images -u Jan -p dupa123 -s "s/Ciekawostki"
+
+#### Linki:
+Dyskusja: http://strims.pl/s/PHP/t/6ftyhc/strims-php-api-via-curl
+
+Strim PHP: http://strims.pl/s/PHP
+
+Strim Linux: http://strims.pl/s/Linux
+
+Strims-PHP-API: https://github.com/altruista/strims-php-api/
+
+#### Autor:
+- http://strims.pl/u/altruista
+
+#### Licencja:
+Creative Commons Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/deed.en_US
