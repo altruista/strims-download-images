@@ -40,8 +40,9 @@ function replace_diacritics($string) {
 
 /**
  * Tworzenie nazwy pliku
- * @param type $listing
- * @return type
+ * @see strims-php-api
+ * @param object $listing treść ze strima
+ * @return string nazwa_pliku_obrazka.jpg
  */
 function nice_filename($listing) {
     $title = replace_diacritics($listing->title);
