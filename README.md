@@ -19,9 +19,9 @@ Do odpalenia skryptu potrzebne jest wpisanie hasła, i należy wyłączym w usta
  	 -o katalog gdzie mają być zapisane zdjęcia
 	Użytkownik musi mieć wyłączone ramki w ustawieniach
 	 
-Przykład:
+Przykład (pobranie 10 stron s/FotoHistoria):
 
-	strims-download-images -u Jan -p dupa123 -s "s/Ciekawostki" -o "~/Fotki/"
+	strims-download-images -u Jan -p dupa123 -s "s/FotoHistoria" -t 10 -o "~/Fotki/"
 
 #### Linki:
 Dyskusja: http://strims.pl/s/Linux/t/h9xt7a/skrypt-bashphp-do-pobrania-strimu-obrazkowego
