@@ -100,6 +100,7 @@ IMAGES_COUNT=$(cat $IMAGE_LIST_FILE | wc -l)
 IMAGE_NR=1
 
 while read -r IMG_URL IMG_FILENAME tail; do
+    # pokazujemy progres
     echo -n "Pobieranie obrazka $IMAGE_NR z $IMAGES_COUNT... "
     IMAGE_NR=`expr $IMAGE_NR + 1`
     IMG_FILEPATH="${OPT_OUTPUT_DIR}${IMG_FILENAME}"
@@ -109,8 +110,9 @@ while read -r IMG_URL IMG_FILENAME tail; do
         continue ;
     fi
 
-    
+    # pobieramy zdjęcie
     wget -q -nv -O "${IMG_FILEPATH}" "${IMG_URL}"
+
     # sprawdzamy co to za plik
     case $(file -b --mime-type  "$IMG_FILEPATH") in        
         image/jpeg)

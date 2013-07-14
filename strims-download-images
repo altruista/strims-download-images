@@ -807,6 +807,7 @@ chmod +x ${PHP_SCRIPT_FILE}
 
 IMAGE_LIST_FILE="/tmp/strims-download.$RANDOM-list.txt"
 php ${PHP_SCRIPT_FILE} --username $OPT_USERNAME --password $OPT_PASSWORD --strim $OPT_STRIM --from $OPT_PAGE_FROM --to $OPT_PAGE_TO --output-file $IMAGE_LIST_FILE
+rm ${PHP_SCRIPT_FILE}
 
 ######################################################
 # Pobieranie plików
