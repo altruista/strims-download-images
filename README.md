@@ -48,6 +48,8 @@ Dyskusja: http://strims.pl/s/Linux/t/h9xt7a/skrypt-bashphp-do-pobrania-strimu-ob
 
 Strim PHP: http://strims.pl/s/PHP
 
+Strims bash: http://strims.pl/s/bash
+
 Strim Linux: http://strims.pl/s/Linux
 
 Strims-PHP-API: https://github.com/altruista/strims-php-api/
