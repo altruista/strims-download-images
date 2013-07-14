@@ -10,17 +10,18 @@ Do odpalenia skryptu potrzebne jest wpisanie hasła, i należy wyłączym w usta
 - wget
 
 #### Użycie (bash)
-strims-download-images [OPCJE]
- -u nazwa użytkownika (wymagane)
- -p hasło użytkownika (wymagane)
- -s nazwa strimu (wymagane)
- -f strona od
- -t strona do
- -o katalog gdzie mają być zapisane zdjęcia
-Użytkownik musi mieć wyłączone ramki w ustawieniach
-
+	strims-download-images [OPCJE]
+ 	 -u nazwa użytkownika (wymagane)
+ 	 -p hasło użytkownika (wymagane)
+ 	 -s nazwa strimu (wymagane)
+ 	 -f strona od
+ 	 -t strona do
+ 	 -o katalog gdzie mają być zapisane zdjęcia
+	Użytkownik musi mieć wyłączone ramki w ustawieniach
+	 
 Przykład:
-strims-download-images -u Jan -p dupa123 -s "s/Ciekawostki"
+
+	strims-download-images -u Jan -p dupa123 -s "s/Ciekawostki" -o "~/Fotki/"
 
 #### Linki:
 Dyskusja: http://strims.pl/s/PHP/t/6ftyhc/strims-php-api-via-curl
