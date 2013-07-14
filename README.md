@@ -5,6 +5,10 @@ Skrypt bash/php do pobierania zdjęc ze strimu ze zdjęciami np. s/dlugieszyny, 
 
 Do odpalenia skryptu potrzebne jest wpisanie hasła, i należy wyłączym w ustawieniach użytkownika otwieranie w ramkach
 
+Po co bash? Bo mogę :)
+
+Plik `strims-download-images.php` można też odpalać z poziomu konsoli, wystarczy zaledwie tam pętla co pobierze obrazki aby on samodzielnie działał
+
 #### Wymagania
 - PHP 5+ z php-curl
 - wget
