@@ -24,7 +24,7 @@ Przykład:
 	strims-download-images -u Jan -p dupa123 -s "s/Ciekawostki" -o "~/Fotki/"
 
 #### Linki:
-Dyskusja: http://strims.pl/s/PHP/t/6ftyhc/strims-php-api-via-curl
+Dyskusja: http://strims.pl/s/Linux/t/h9xt7a/skrypt-bashphp-do-pobrania-strimu-obrazkowego
 
 Strim PHP: http://strims.pl/s/PHP
 
