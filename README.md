@@ -32,12 +32,12 @@ Przykład (pobranie 10 stron s/FotoHistoria):
 	php strims-download-images.php [OPCJE]
 	 --username     nazwa użytkownika (wymagane)
 	 --password     hasło użytkownika (wymagane)
-	 --strim        nazwa strimu np. "s/Ciekawostki"
+	 --strim        nazwa strimu np. "s/Ciekawostki" (wymagane)
 	 --from         strona początkowa
 	 --to           strona końcowa
 	 --quiet        nie pokazuj postępu
 	 --output-file  plik z wynikiem (wymagane)
-         --download-images (wkrótce)
+         --download-images (wkrótce. wtedy to będzie samodzielny skrypt)
 
 Przykład (sparsowanie 10 stron s/FotoHistoria):
 
